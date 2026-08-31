@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "every-jump-random-mob-spawns",
+	"version": "${version}",
+	"name": "every jump random mob spawns",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/every-jump-random-mob-spawns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"simplicity.everyjumprandommobspawns.net.EveryJumpRandomMobSpawns"
+		],
+		"client": [
+			"simplicity.everyjumprandommobspawns.net.client.EveryJumpRandomMobSpawnsClient"
+		]
+	},
+	"mixins": [
+		"every-jump-random-mob-spawns.mixins.json",
+		{
+			"config": "every-jump-random-mob-spawns.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

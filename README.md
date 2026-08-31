@@ -10,6 +10,10 @@ For setup instructions, please see the [Fabric Documentation page](https://docs.
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 
+
+
+
+
 this mod was made for my yt. you can use this mod for your own videos or use it to learn. do whatever you want ;)
 
 yt: https://www.youtube.com/@simplicity69420
